@@ -85,6 +85,14 @@ whereIsWaldo[1][2] = "No One";
 console.log(whereIsWaldo);
 console.log(whereIsWaldo[2][1][1]);
 
+//Excited Kitten
+let i = 0;
+while (i < 20 ) {
+    console.log("Love me, pet me! HSSSSSS!");
+    i++;  
+};
+
+
 
 
 
