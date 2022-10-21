@@ -16,3 +16,24 @@ for ( let i = 1; i <= 20; i++) {
 for (let i = 0; i <= 200; i+=2) {
     console.log(i);   
 }
+
+//Fizz Buzz
+for ( let i = 1; i <= 100; i++) {
+    console.log(i);
+}
+//for ( let i = 1; i <= 100; i++) {
+//     i % 3 == 0 ? console.log("Fizz") : console.log(i);
+// }
+// for ( let i = 1; i <= 100; i++) {
+//     i % 5 == 0 ? console.log("Buzz") : console.log(i);
+// }
+// for ( let i = 1; i <= 100; i++) {
+//     i % 3 == 0 && i % 5 == 0 ? console.log("FizzBuzz") : console.log(i);
+//}
+for ( let i = 1; i <= 100; i++) {
+    i % 3 == 0 && i % 5 == 0 ? console.log("FizzBuzz") 
+    : i % 3 == 0 ? console.log("Fizz") 
+    : i % 5 == 0 ? console.log("Buzz")
+    : console.log(i);
+};
+
