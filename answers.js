@@ -50,4 +50,17 @@ dart.push("Hawkins");
 wolfy[0] = "Gameboy";
 console.log(plantee,wolfy,dart);
 
+//Yell at the Ninja Turtles
+const ninjas = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+const upperCaseNinjas = [];
+for (let n of ninjas) {
+    n = n.toUpperCase();
+    upperCaseNinjas.push(n);
+};
+console.log(upperCaseNinjas);
+
+
+
+
+
 
