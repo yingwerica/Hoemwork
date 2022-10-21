@@ -4,3 +4,10 @@
 //CSS Intro (including css files in HTML, elements)---Rank: 5;
 //CSS Basics (colors, background, font properties)---Rank: 4;
 
+//////////////////////////////
+/////JavaScript Reps////////
+
+//Easy Going
+for ( let i = 1; i <= 20; i++) {
+    console.log(i);
+}
