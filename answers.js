@@ -99,6 +99,20 @@ while (i < 20 ) {
     i+=2;  
 };
 
+//Find the Median
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+console.log(nums.length);
+const findMedian = (numArray) => {
+    let sortedArray = numArray.sort(function(a, b){return a- b});
+    let length = numArray.length;
+    if (length % 2 == 1) {
+        return sortedArray[Math.floor(length/2) + 1];
+    } else {
+        return (sortedArray[length/2] + sortedArray[length/2 - 1]) / 2;
+    }
+}
+console.log(findMedian(nums));
+
 
 
 
