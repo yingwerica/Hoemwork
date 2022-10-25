@@ -86,11 +86,19 @@ console.log(whereIsWaldo);
 console.log(whereIsWaldo[2][1][1]);
 
 //Excited Kitten
+let t = 0;
+while (t < 20 ) {
+    console.log("Love me, pet me! HSSSSSS!");
+    t++;  
+};
+
+let kittyTalk = ["...human...why you taking pictures of me?...", "...the catnip made me do it...","...why does the red dot always get away..."]
 let i = 0;
 while (i < 20 ) {
-    console.log("Love me, pet me! HSSSSSS!");
-    i++;  
+    console.log(kittyTalk[Math.floor(Math.random()*3)]);
+    i+=2;  
 };
+
 
 
 
