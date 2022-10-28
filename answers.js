@@ -37,6 +37,16 @@ for ( let i = 1; i <= 100; i++) {
     : console.log(i);
 };
 
+//for (let i=1; i<=100; i++){
+    // if(i%5==0 && i% 3==0 ){
+    //     console.log(`${i} FizzBuzz`)}
+    //     else if(i%5==0){
+    //     console.log(`${i} Buz`)}
+    //     else if(i%3==0){
+    //         console.log(`${i} Fizz`)}
+    // }
+    
+
 //Wild Wild Life
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 const sharky = ["Sharky", "shark", 20, "Left Coast"]
@@ -69,7 +79,12 @@ favMovies.reverse();
 favMovies.shift();
 favMovies.unshift('star wars');
 console.log(favMovies.indexOf("Django Unchained"));
-favMovies.splice(15, 0, "Avatar" );
+favMovies.splice(15, 1, "Avatar" );
+//for (let i = 0; i < favMovies.length; i++) {
+    // if (favMovies[i] == 'Django Unchained') {
+    //     favMovies.splice();
+    //     favMovies[i] = "Avatar";}
+
 const sliceFav = favMovies.slice(favMovies.length/2, favMovies.length-1);
 console.log(sliceFav);
 console.log(favMovies);
